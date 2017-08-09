@@ -1,0 +1,127 @@
+<resources>
+    <!--使用DimenHelper生成不同屏幕下适配的大小-->
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- px转换成dp -->
+    <!-- return (int) (pxValue / fontScale + 0.5f); 这里fontScale为2-xhdpi -->
+    <dimen name="pxtodp0">0dp</dimen>
+    <dimen name="pxtodp1">1px</dimen>
+    <dimen name="pxtodp2">1dp</dimen>
+    <dimen name="pxtodp4">2dp</dimen>
+    <dimen name="pxtodp5">3dp</dimen>
+    <dimen name="pxtodp6">3dp</dimen>
+    <dimen name="pxtodp8">4dp</dimen>
+    <dimen name="pxtodp10">5dp</dimen>
+    <dimen name="pxtodp12">6dp</dimen>
+    <dimen name="pxtodp14">7dp</dimen>
+    <dimen name="pxtodp16">8dp</dimen>
+    <dimen name="pxtodp18">9dp</dimen>
+    <dimen name="pxtodp20">10dp</dimen>
+    <dimen name="pxtodp22">11dp</dimen>
+    <dimen name="pxtodp24">12dp</dimen>
+    <dimen name="pxtodp26">13dp</dimen>
+    <dimen name="pxtodp28">14dp</dimen>
+    <dimen name="pxtodp30">15dp</dimen>
+    <dimen name="pxtodp32">16dp</dimen>
+    <dimen name="pxtodp34">17dp</dimen>
+    <dimen name="pxtodp36">18dp</dimen>
+    <dimen name="pxtodp38">19dp</dimen>
+    <dimen name="pxtodp40">20dp</dimen>
+    <dimen name="pxtodp44">22dp</dimen>
+    <dimen name="pxtodp46">23dp</dimen>
+    <dimen name="pxtodp48">24dp</dimen>
+    <dimen name="pxtodp50">25dp</dimen>
+    <dimen name="pxtodp52">26dp</dimen>
+    <dimen name="pxtodp54">27dp</dimen>
+    <dimen name="pxtodp56">28dp</dimen>
+    <dimen name="pxtodp60">30dp</dimen>
+    <dimen name="pxtodp62">31dp</dimen>
+    <dimen name="pxtodp64">32dp</dimen>
+    <dimen name="pxtodp68">34dp</dimen>
+    <dimen name="pxtodp70">35dp</dimen>
+    <dimen name="pxtodp72">36dp</dimen>
+    <dimen name="pxtodp74">37dp</dimen>
+    <dimen name="pxtodp76">38dp</dimen>
+    <dimen name="pxtodp78">39dp</dimen>
+    <dimen name="pxtodp80">40dp</dimen>
+    <dimen name="pxtodp82">41dp</dimen>
+    <dimen name="pxtodp90">45dp</dimen>
+    <dimen name="pxtodp95">47dp</dimen>
+    <dimen name="pxtodp100">50dp</dimen>
+    <dimen name="pxtodp102">51dp</dimen>
+    <dimen name="pxtodp110">55dp</dimen>
+    <dimen name="pxtodp112">56dp</dimen>
+    <dimen name="pxtodp114">57dp</dimen>
+    <dimen name="pxtodp118">59dp</dimen>
+    <dimen name="pxtodp120">60dp</dimen>
+    <dimen name="pxtodp126">63dp</dimen>
+    <dimen name="pxtodp130">65dp</dimen>
+    <dimen name="pxtodp134">67dp</dimen>
+    <dimen name="pxtodp136">68dp</dimen>
+    <dimen name="pxtodp140">70dp</dimen>
+    <dimen name="pxtodp150">75dp</dimen>
+    <dimen name="pxtodp152">76dp</dimen>
+    <dimen name="pxtodp160">80dp</dimen>
+    <dimen name="pxtodp162">81dp</dimen>
+    <dimen name="pxtodp170">85dp</dimen>
+    <dimen name="pxtodp172">86dp</dimen>
+    <dimen name="pxtodp180">90dp</dimen>
+    <dimen name="pxtodp188">94dp</dimen>
+    <dimen name="pxtodp190">95dp</dimen>
+    <dimen name="pxtodp194">97dp</dimen>
+    <dimen name="pxtodp200">100dp</dimen>
+    <dimen name="pxtodp210">105dp</dimen>
+    <dimen name="pxtodp214">107dp</dimen>
+    <dimen name="pxtodp220">110dp</dimen>
+    <dimen name="pxtodp226">113dp</dimen>
+    <dimen name="pxtodp236">118dp</dimen>
+    <dimen name="pxtodp240">120dp</dimen>
+    <dimen name="pxtodp242">121dp</dimen>
+    <dimen name="pxtodp260">130dp</dimen>
+    <dimen name="pxtodp268">134dp</dimen>
+    <dimen name="pxtodp270">135dp</dimen>
+    <dimen name="pxtodp280">140dp</dimen>
+    <dimen name="pxtodp338">170dp</dimen>
+    <dimen name="pxtodp300">150dp</dimen>
+    <dimen name="pxtodp301">151dp</dimen>
+    <dimen name="pxtodp320">160dp</dimen>
+    <dimen name="pxtodp348">174dp</dimen>
+    <dimen name="pxtodp360">180dp</dimen>
+    <dimen name="pxtodp380">190dp</dimen>
+    <dimen name="pxtodp410">205dp</dimen>
+    <dimen name="pxtodp424">212dp</dimen>
+    <dimen name="pxtodp430">215dp</dimen>
+    <dimen name="pxtodp484">242dp</dimen>
+    <dimen name="pxtodp450">275dp</dimen>
+    <dimen name="pxtodp480">240dp</dimen>
+    <dimen name="pxtodp510">255dp</dimen>
+    <dimen name="pxtodp525">268dp</dimen>
+    <dimen name="pxtodp540">270dp</dimen>
+    <dimen name="pxtodp825">413dp</dimen>
+
+    <!-- return (int) (pxValue / fontScale + 0.5f); 这里fontScale为2-xhdpi -->
+    <dimen name="pxtosp16">8sp</dimen>
+    <dimen name="pxtosp20">10sp</dimen>
+    <dimen name="pxtosp22">11sp</dimen>
+    <dimen name="pxtosp24">12sp</dimen>
+    <dimen name="pxtosp26">13sp</dimen>
+    <dimen name="pxtosp28">14sp</dimen>
+    <dimen name="pxtosp30">15sp</dimen>
+    <dimen name="pxtosp32">16sp</dimen>
+    <dimen name="pxtosp34">17sp</dimen>
+    <dimen name="pxtosp36">18sp</dimen>
+    <dimen name="pxtosp38">19sp</dimen>
+    <dimen name="pxtosp40">20sp</dimen>
+    <dimen name="pxtosp42">21sp</dimen>
+    <dimen name="pxtosp54">27sp</dimen>
+    <dimen name="pxtosp60">30sp</dimen>
+    <dimen name="pxtosp68">34sp</dimen>
+    <dimen name="pxtosp100">50sp</dimen>
+    <!--列表 底部加载布局的高度-->
+    <dimen name="list_foot_height">50sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

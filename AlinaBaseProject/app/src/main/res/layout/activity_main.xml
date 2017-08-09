@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hq.base.DialogActivity">
+
+
+    <com.hq.base.view.CustomTitlebar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left_button_text="左标题"
+        app:right_button_text="右标题"
+        app:title_text="首页"/>
+
+    <HorizontalScrollView
+        android:id="@+id/hs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="中间弹出,点击外边区域不取消"/>
+
+            <Button
+                android:id="@+id/main_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="底部弹出,点击外边区域不取消"/>
+
+            <Button
+                android:id="@+id/main_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="中间弹出,点击外边区域取消"/>
+
+            <Button
+                android:id="@+id/main_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="底部弹出,点击外边区域取消"/>
+
+            <Button
+                android:id="@+id/main_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="自定义样式,中间弹出"/>
+
+            <Button
+                android:id="@+id/main_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="自定义样式,底部弹出"/>
+
+            <Button
+                android:id="@+id/main_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="消失监听"/>
+
+            <Button
+                android:id="@+id/main_btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="更改边距"/>
+
+            <Button
+                android:id="@+id/main_btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="更改动画"/>
+
+            <Button
+                android:id="@+id/main_btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClick"
+                android:text="添加View"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/hs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hs1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="警告"/>
+
+            <Button
+                android:id="@+id/main_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载中"/>
+
+            <Button
+                android:id="@+id/main_success"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="成功"/>
+
+            <Button
+                android:id="@+id/main_fail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="失败"/>
+
+            <Button
+                android:id="@+id/main_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息"/>
+
+            <Button
+                android:id="@+id/main_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义"/>
+
+            <Button
+                android:id="@+id/main_warn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="弹窗"/>
+
+            <Button
+                android:id="@+id/main_system"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AlertSheet"/>
+
+            <Button
+                android:id="@+id/main_ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示广告"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_below="@+id/hs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bnNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络请求"/>
+
+        <Button
+            android:id="@+id/bnGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="引导页"/>
+        <Button
+            android:id="@+id/bnBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="banner"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
